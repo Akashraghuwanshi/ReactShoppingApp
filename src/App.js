@@ -1,9 +1,13 @@
 
+
+import Product from './Products';
+
 const  App=()=> {
   return (
     <div>
-     Hello world !
-    </div>
+     <Product/>
+      </div>
+      
   );
 }
 
