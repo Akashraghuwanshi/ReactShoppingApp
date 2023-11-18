@@ -16,7 +16,7 @@ const ListItems = ({data}) => {
             </small>
         </div>
              <div className={'title'}>
-             <a href="https://www.amazon.in" target="_blank"><h3>{`${data.title}`}</h3> </a>
+             <a href="https://www.amazon.in" target="_blank" rel="noreferrer"><h3>{`${data.title}`}</h3> </a>
              </div>
       </div>
       <button className={'card-add'}> Add to Card
